@@ -1,0 +1,42 @@
+.game {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.status {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: beige;
+    cursor: pointer;
+    border: 2px solid #999;
+}
+
+.square:hover {
+    background-color: azure;
+}
+
+.recet-btn {
+    margin-top: 20px;
+    background-color: rgb(16, 84, 84);
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.recet-btn:hover{
+    background-color: bisque;
+}
